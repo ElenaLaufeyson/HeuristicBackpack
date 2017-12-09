@@ -29,6 +29,7 @@ public class Backpack {
 	do {	
             //Вычисляем "успешность" всех хромосом популяции
             population.successAllChromosome();
+            population.findBestChromosome();
             //селекция
             population.selestion();
             number++;
